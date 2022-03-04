@@ -117,7 +117,7 @@ img {
   padding: 5px 10px;
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 2em;
   background: rgb(224, 27, 27);
   border-radius: 5px;
 }
@@ -146,20 +146,16 @@ img {
 
 @media (max-width: 760px) {
   .header nav a {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .header li + li {
     margin-left: 10px;
   }
 }
-@media (max-width: 560px) {
-  .header nav a {
-    font-size: 0.85em;
-  }
-}
+
 @media (max-width: 460px) {
   .header nav a {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   .header li + li {
     margin-left: 8px;
@@ -167,7 +163,7 @@ img {
 }
 @media (max-width: 260px) {
   .header nav a {
-    font-size: 0.3em;
+    font-size: 1em;
     padding: 2px 5px;
   }
   .header li + li {
