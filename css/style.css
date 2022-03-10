@@ -73,6 +73,9 @@ img {
       "anuncios anuncios anuncios"
       "footer footer footer";
   }
+  .video-none {
+    display: none;
+  }
   .anuncios {
     flex-direction: row;
     padding-top: 20px;
@@ -86,9 +89,10 @@ img {
   .anuncios::after {
     content: "→";
     position: absolute;
-    top: -5px;
+    top: -15px;
     right: 30px;
-    color: var(--color2);
+    color: var(--bgcolor2);
+    font-size: 2rem;
     animation: seta 0.5s ease-in 0s infinite alternate;
   }
 }
@@ -232,7 +236,8 @@ img {
   .sidenav::after {
     content: "→";
     position: absolute;
-    top: 5px;
+    top: -10px;
+    font-size: 2rem;
     right: 30px;
     color: var(--bgcolor2);
     animation: seta 0.5s ease-in 0s infinite alternate;
