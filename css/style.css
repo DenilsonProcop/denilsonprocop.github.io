@@ -73,6 +73,7 @@ img {
       "anuncios anuncios anuncios"
       "footer footer footer";
   }
+  
   .embed {
     display: none;
   }
@@ -94,6 +95,9 @@ img {
     color: var(--bgcolor2);
     font-size: 2rem;
     animation: seta 0.5s ease-in 0s infinite alternate;
+  }
+  .videoPlay {
+    display: none;
   }
 }
 
