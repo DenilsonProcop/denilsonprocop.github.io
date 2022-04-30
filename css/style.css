@@ -216,6 +216,10 @@ img {
   transition: ease-in-out 0.5s;
 }
 
+#booyah {
+ padding: 28px 0px;
+}
+
 .sidenav li a:hover {
   background: var(--bgcolor2);
   transition: ease-in-out 0.5s;
